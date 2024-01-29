@@ -1,0 +1,93 @@
+.header-contenedor {
+    margin: 8px 120px 0px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-buscar-cont {
+    display: flex;
+    align-items: center;
+    gap: 89px;
+}
+
+.logo-buscar-cont img {
+    width: 146px;
+    height: 93px;
+}
+
+.buscar-cont {
+    width: 414px;
+    height: 41px;
+    background-color: #D3E88B;
+    border-radius: 20.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    color: #706868;
+}
+
+.buscar-cont .icono {
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+.buscar-cont input {
+    width: 350px;
+    height: 41px;
+    border-radius: 20.5px;
+    background-color: transparent;
+}
+
+.buscar-cont input:focus {
+    outline: none;
+}
+
+.contacto-social-cont {
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.contacto-social-cont .contact {
+    display: flex;
+    align-items: center;
+}
+
+.contacto-social-cont .contact p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 17px;
+}
+
+.contacto-social-cont .contact span {
+    font-weight: 500;
+}
+
+.social-icono-cont {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.headerIcono {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    background-color: #c4e454;
+    transition-duration: .5;
+}
+
+.headerIcono-size {
+    width: 30px;
+    height: 30px;
+}
+
+.headerIcono:hover {
+    background-color: #9ebe2b;
+    transform: scale(1.1);
+}
+
