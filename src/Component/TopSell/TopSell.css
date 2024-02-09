@@ -1,0 +1,20 @@
+/* TopSell.css */
+.section-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-title h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #b0d62b;
+}
+
+.section-line {
+    width: 192px;
+    height: 1px;
+    background-color: #c4e454;
+}
+
