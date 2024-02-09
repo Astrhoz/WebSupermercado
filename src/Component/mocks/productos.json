@@ -1,0 +1,504 @@
+{
+  "productos": [
+    {
+      "title": "Huevos",
+      "type": "lácteos",
+      "description": "Huevos orgánicos crudos en una cesta",
+      "filename": "0.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 28.1,
+      "rating": 4
+    },
+    {
+      "title": "Fresa dulce y fresca",
+      "type": "fruta",
+      "description": "Fresa dulce y fresca en la mesa de madera",
+      "filename": "1.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 29.45,
+      "rating": 4
+    },
+    {
+      "title": "Espárragos",
+      "type": "verdura",
+      "description": "Espárragos con jamón sobre la mesa de madera",
+      "filename": "2.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 18.95,
+      "rating": 3
+    },
+    {
+      "title": "Malteada verde",
+      "type": "lácteos",
+      "description": "Vaso de batido verde con yema de huevo de codorniz, servido con tubo de cóctel, manzana verde y hojas tiernas de espinaca sobre superficie de lata.",
+      "filename": "3.jpg",
+      "height": 600,
+      "width": 399,
+      "price": 17.68,
+      "rating": 4
+    },
+    {
+      "title": "Legumbres crudas",
+      "type": "verdura",
+      "description": "Legumbres crudas sobre la mesa de madera",
+      "filename": "4.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 17.11,
+      "rating": 2
+    },
+    {
+      "title": "Horneando pastel",
+      "type": "lácteos",
+      "description": "Pastel para hornear en la cocina rural: ingredientes de la receta de masa (huevos, harina, azúcar) en una mesa de madera antigua desde arriba.",
+      "filename": "5.jpg",
+      "height": 450,
+      "width": 675,
+      "price": 11.14,
+      "rating": 4
+    },
+    {
+      "title": "Pesto con albahaca",
+      "type": "verdura",
+      "description": "Pesto tradicional italiano con albahaca, queso y aceite",
+      "filename": "6.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 18.19,
+      "rating": 2
+    },
+    {
+      "title": "Avellana en cuenco de cerámica negra",
+      "type": "verdura",
+      "description": "Avellana en cuenco de cerámica negra sobre fondo de madera antiguo. ",
+      "filename": "7.jpg",
+      "height": 450,
+      "width": 301,
+      "price": 27.35,
+      "rating": 0
+    },
+    {
+      "title": "fresa fresca",
+      "type": "fruta",
+      "description": "Fresa dulce y fresca en la mesa de madera",
+      "filename": "8.jpg",
+      "height": 600,
+      "width": 399,
+      "price": 28.59,
+      "rating": 4
+    },
+    {
+      "title": "limón y sal",
+      "type": "fruta",
+      "description": "Romero, limón y sal sobre la mesa.",
+      "filename": "9.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 15.79,
+      "rating": 5
+    },
+    {
+      "title": "Pan casero",
+      "type": "panadería",
+      "description": "Pan casero",
+      "filename": "10.jpg",
+      "height": 450,
+      "width": 301,
+      "price": 17.48,
+      "rating": 3
+    },
+    {
+      "title": "legumbres",
+      "type": "verdura",
+      "description": "Legumbres cocidas en la mesa de madera",
+      "filename": "11.jpg",
+      "height": 600,
+      "width": 399,
+      "price": 14.77,
+      "rating": 0
+    },
+    {
+      "title": "tomate fresco",
+      "type": "verdura",
+      "description": "Jugo de tomate fresco con albahaca",
+      "filename": "12.jpg",
+      "height": 600,
+      "width": 903,
+      "price": 16.3,
+      "rating": 2
+    },
+    {
+      "title": "Desayuno saludable",
+      "type": "fruta",
+      "description": "Juego de desayuno saludable. ",
+      "filename": "13.jpg",
+      "height": 450,
+      "width": 350,
+      "price": 13.02,
+      "rating": 2
+    },
+    {
+      "title": "Judías verdes",
+      "type": "verdura",
+      "description": "Judías verdes orgánicas crudas listas para comer",
+      "filename": "14.jpg",
+      "height": 450,
+      "width": 300,
+      "price": 28.79,
+      "rating": 1
+    },
+    {
+      "title": "Champiñones portobello rellenos al horno",
+      "type": "panadería",
+      "description": "Champiñones portobello rellenos al horno caseros con espinacas y queso",
+      "filename": "15.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 20.31,
+      "rating": 1
+    },
+    {
+      "title": "Gelatina de fresa",
+      "type": "fruta",
+      "description": "Jalea de fresa orgánica casera en un frasco",
+      "filename": "16.jpg",
+      "height": 400,
+      "width": 600,
+      "price": 14.18,
+      "rating": 1
+    },
+    {
+      "title": "Jugo de peras",
+      "type": "fruta",
+      "description": "Jugo de peras frescas sobre la mesa de madera",
+      "filename": "17.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 19.49,
+      "rating": 4
+    },
+    {
+      "title": "Peras frescas",
+      "type": "fruta",
+      "description": "Peras frescas dulces en la mesa de madera",
+      "filename": "18.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 15.12,
+      "rating": 5
+    },
+    {
+      "title": "Ensalada caprese",
+      "type": "verdura",
+      "description": "Ensalada caprese saludable casera con tomate, mozzarella y albahaca",
+      "filename": "19.jpg",
+      "height": 400,
+      "width": 600,
+      "price": 16.76,
+      "rating": 5
+    },
+    {
+      "title": "Naranjas",
+      "type": "fruta",
+      "description": "Barras de helado de paleta de naranja elaboradas con naranjas frescas. ",
+      "filename": "20.jpg",
+      "height": 450,
+      "width": 274,
+      "price": 21.48,
+      "rating": 4
+    },
+    {
+      "title": "Comida vegana",
+      "type": "verdura",
+      "description": "Concepto de comida vegana",
+      "filename": "21.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 29.66,
+      "rating": 4
+    },
+    {
+      "title": "Desayuno con muesli",
+      "type": "lácteos",
+      "description": "Concepto de desayuno saludable con muesli",
+      "filename": "22.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 22.7,
+      "rating": 2
+    },
+    {
+      "title": "Miel",
+      "type": "panadería",
+      "description": "Miel y Honeycell sobre la mesa.",
+      "filename": "23.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 17.01,
+      "rating": 2
+    },
+    {
+      "title": "Desayuno con cabaña",
+      "type": "fruta",
+      "description": "Desayuno saludable con requesón y fresa.",
+      "filename": "24.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 14.05,
+      "rating": 1
+    },
+    {
+      "title": "Batido de fresa",
+      "type": "fruta",
+      "description": "Vaso de batido de fresa roja con semillas de chía, servido con tubo de cóctel retro, menta fresca y fresas sobre fondo oscuro",
+      "filename": "25.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 28.86,
+      "rating": 2
+    },
+    {
+      "title": "Fresa y menta",
+      "type": "fruta",
+      "description": "Muesli casero con fresa y menta",
+      "filename": "26.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 26.21,
+      "rating": 4
+    },
+    {
+      "title": "Ricotta",
+      "type": "lácteos",
+      "description": "Ricotta con frutos rojos y menta",
+      "filename": "27.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 27.81,
+      "rating": 5
+    },
+    {
+      "title": "Sándwich cubano",
+      "type": "panadería",
+      "description": "Sándwiches cubanos tradicionales caseros con jamón de cerdo y queso",
+      "filename": "28.jpg",
+      "height": 450,
+      "width": 300,
+      "price": 18.5,
+      "rating": 4
+    },
+    {
+      "title": "Granola",
+      "type": "lácteos",
+      "description": "Frasco de vidrio con granola casera y yogur con nueces, frambuesas y moras sobre tabla de cortar de madera sobre textil blanco a la luz del día",
+      "filename": "29.jpg",
+      "height": 450,
+      "width": 300,
+      "price": 29.97,
+      "rating": 3
+    },
+    {
+      "title": "Batido con semillas de chía",
+      "type": "fruta",
+      "description": "Vaso de batido de fresa roja con semillas de chía, servido con tubo de cóctel retro, menta fresca y fresas sobre una mesa de madera",
+      "filename": "30.jpg",
+      "height": 600,
+      "width": 900,
+      "price": 25.26,
+      "rating": 5
+    },
+    {
+      "title": "Yogur",
+      "type": "lácteos",
+      "description": "Yogur casero con frambuesa y menta",
+      "filename": "31.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 27.61,
+      "rating": 4
+    },
+    {
+      "title": "Sándwich con ensalada",
+      "type": "verdura",
+      "description": "Sándwich vegano con ensalada, tomate y rábano",
+      "filename": "32.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 22.48,
+      "rating": 5
+    },
+    {
+      "title": "Cereza",
+      "type": "fruta",
+      "description": "Cereza con azúcar sobre mesa antigua",
+      "filename": "33.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 14.35,
+      "rating": 5
+    },
+    {
+      "title": "Espárragos crudos",
+      "type": "verdura",
+      "description": "Ensalada de espárragos frescos crudos con queso y aderezo",
+      "filename": "34.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 22.97,
+      "rating": 4
+    },
+    {
+      "title": "Maíz",
+      "type": "verdura",
+      "description": "Mazorcas de maíz asadas con sal y mantequilla",
+      "filename": "35.jpg",
+      "height": 450,
+      "width": 300,
+      "price": 13.55,
+      "rating": 2
+    },
+    {
+      "title": "Vegano",
+      "type": "vegano",
+      "description": "Concepto de alimentación vegana saludable",
+      "filename": "36.jpg",
+      "height": 600,
+      "width": 398,
+      "price": 28.96,
+      "rating": 5
+    },
+    {
+      "title": "Arándanos frescos",
+      "type": "fruta",
+      "description": "Desayuno saludable. ",
+      "filename": "37.jpg",
+      "height": 450,
+      "width": 321,
+      "price": 21.01,
+      "rating": 4
+    },
+    {
+      "title": "Aguacate triturado",
+      "type": "fruta",
+      "description": "Sándwiches veganos con puré de aguacate, tomate y rábano. ",
+      "filename": "38.jpg",
+      "height": 450,
+      "width": 450,
+      "price": 25.88,
+      "rating": 0
+    },
+    {
+      "title": "Chapata italiana",
+      "type": "panadería",
+      "description": "Pan ciabatta italiano cortado en rodajas sobre una tabla de cortar de madera con hierbas, ajo y aceitunas sobre fondo oscuro grunge, vista superior",
+      "filename": "39.jpg",
+      "height": 450,
+      "width": 565,
+      "price": 15.18,
+      "rating": 1
+    },
+    {
+      "title": "Desayuno rústico",
+      "type": "lácteos",
+      "description": "Set de desayuno rústico y saludable. ",
+      "filename": "40.jpg",
+      "height": 450,
+      "width": 307,
+      "price": 21.32,
+      "rating": 0
+    },
+    {
+      "title": "Limones en rodajas",
+      "type": "fruta",
+      "description": "Montón de limones y limas enteros y en rodajas con menta en una caja de rejilla metálica vintage sobre una vieja mesa de madera con fondo de madera turquesa. ",
+      "filename": "41.jpg",
+      "height": 600,
+      "width": 900,
+      "price": 27.14,
+      "rating": 2
+    },
+    {
+      "title": "Ciruelas",
+      "type": "fruta",
+      "description": "Ciruelas dulces amarillas y rojas",
+      "filename": "42.jpg",
+      "height": 450,
+      "width": 299,
+      "price": 19.18,
+      "rating": 1
+    },
+    {
+      "title": "Papas fritas",
+      "type": "panadería",
+      "description": "Patatas fritas caseras al horno con ketchup",
+      "filename": "43.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 18.32,
+      "rating": 3
+    },
+    {
+      "title": "Fresas",
+      "type": "fruta",
+      "description": "Juego de desayuno saludable. ",
+      "filename": "44.jpg",
+      "height": 450,
+      "width": 352,
+      "price": 15.13,
+      "rating": 3
+    },
+    {
+      "title": "Hamburguesa de carne molida",
+      "type": "carne",
+      "description": "Chuletas de filete de hamburguesa de carne de res molida cruda con condimentos en tablas de madera antiguas, fondo negro",
+      "filename": "45.jpg",
+      "height": 450,
+      "width": 675,
+      "price": 11.73,
+      "rating": 5
+    },
+    {
+      "title": "Tomates",
+      "type": "fruta",
+      "description": "Tomates orgánicos hechos con amor",
+      "filename": "46.jpg",
+      "height": 450,
+      "width": 675,
+      "price": 26.03,
+      "rating": 4
+    },
+    {
+      "title": "Albahaca",
+      "type": "verdura",
+      "description": "Concepto de comida vegana con albahaca.",
+      "filename": "47.jpg",
+      "height": 450,
+      "width": 678,
+      "price": 15.19,
+      "rating": 4
+    },
+    {
+      "title": "Ramo de frutas",
+      "type": "fruta",
+      "description": "Ramo de cítricos abstracto sobre fondo azul",
+      "filename": "48.jpg",
+      "height": 600,
+      "width": 401,
+      "price": 18.18,
+      "rating": 1
+    },
+    {
+      "title": "Melocotones en rama",
+      "type": "fruta",
+      "description": "Melocotones en rama con hojas y vasos con jugo de durazno y limonada con cubitos de hielo en bandeja de aluminio sobre una vieja mesa de metal. ",
+      "filename": "49.jpg",
+      "height": 600,
+      "width": 400,
+      "price": 25.62,
+      "rating": 3
+    }
+  ]
+}

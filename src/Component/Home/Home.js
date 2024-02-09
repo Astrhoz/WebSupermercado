@@ -1,28 +1,60 @@
-import React from 'react';
-import Header from '../Header/Header';
-import Navbar from '../Navbar/Navbar';
-import SeccionPantalla from '../SeccionPantalla/SeccionPantalla';
-import ProductosDestacados from '../ProductosDestacados/ProductosDestacados';
-import Advertisement from '../Advertisement/Advertisement';
-import TopSell from '../TopSell/TopSell';
-import Blog from '../Blog/Blog';
-import Brands from '../Brands/Brands';
-import Footer from '../Footer/Footer';
+import React from "react";
+import Header from "../Header/Header";
+import Navbar from "../Navbar/Navbar";
+import SeccionPantalla from "../SeccionPantalla/SeccionPantalla";
+// Importación de componentes
+import ProductosDestacados from "../ProductosDestacados/ProductosDestacados";
+import Tienda from "../Tienda/Tienda";
+import Contacto from "../Contacto/Contacto";
+import Advertisement from "../Advertisement/Advertisement";
+import TopSell from "../TopSell/TopSell";
+import Blog from "../Blog/Blog";
+import Brands from "../Brands/Brands";
+import Footer from "../Footer/Footer";
+
+// Importación de librerías de react
+import { useState } from "react";
 
 const Home = () => {
-    return (
-        <div>
-           <Header/> 
-           <Navbar />
-           <SeccionPantalla/>
-           <ProductosDestacados />
-           <Advertisement/>
-           <TopSell />
-           <Blog/>
-           <Brands/>
-           <Footer/>
-        </div>
-    );
-};
+  // Control para manjar el estado del contenido de la pantalla principal
+  const [contenido, setContenido] = useState(1);
 
+  const handdleContenido = (indice) => {
+    setContenido(indice);
+  };
+
+  const cambiarContenido = () => {
+    switch (contenido) {
+      case 1:
+        return (
+          <>
+            <SeccionPantalla />
+            <ProductosDestacados />
+            <Advertisement />
+            <TopSell />
+            <Brands />
+            <Footer />
+          </>
+        );
+      case 2:
+        return <Tienda />;
+      case 3:
+        return;
+      case 4:
+        return <Blog />;
+      case 5:
+        return <Contacto />;
+      default:
+        return null;
+    }
+  };
+  return (
+    <div>
+      <Header />
+      <Navbar handdleContenido={handdleContenido} />
+      {/* Renderizar el contenido basado en el Navbar */}
+      {cambiarContenido()}
+    </div>
+  );
+};
 export default Home;
