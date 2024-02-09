@@ -1,5 +1,5 @@
 .advertisement-container{
-    margin: 76px 320px 0px 320px;
+    margin: 76px 100px 10px 100px;
     overflow: hidden;
 }
 
@@ -160,4 +160,10 @@
     font-size: 15px;
     color: #1328ec;
     text-align: center;
+}
+
+.shop-now-btn{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
 }
