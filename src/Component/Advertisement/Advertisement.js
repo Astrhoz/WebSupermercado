@@ -18,11 +18,11 @@ const Advertisement = () => {
                     <div className='hoverImg'>
                         <div className='hoverImg-content'>
                             <div className='shop-now-btn ml-[125px]'>
-                                <button>Shop Now</button>
+                                <button>Compra Ahora</button>
                                 <MdDoubleArrow className='ml-1'/>
                             </div>
-                            <h1>Lorem Ipsum</h1>
-                            <p>Why do we use it?</p>
+                            <h1>ENSALADAS</h1>
+                            <p>¿Que estas esperando?</p>
                         </div>
                         <img src={img1} alt="" />
                     </div>
@@ -30,10 +30,10 @@ const Advertisement = () => {
                 <div>
                     <div className='relative'>
                         <div className='center-img-content'>
-                            <h1>Lorem Ipsum</h1>
-                            <p>Why do we use it?</p>
+                            <h1>POSTRES</h1>
+                            <p>¿Que estas esperando?</p>
                                 <div className='shop-now-btn ml-[10px]'>
-                                    <button>Shop Now</button>
+                                    <button>Compra Ahora</button>
                                     <MdDoubleArrow className='ml-1'/>
                                 </div>
                         </div>
@@ -49,10 +49,10 @@ const Advertisement = () => {
 
                         <div className='relative'>
                             <div className='bottom-img1-content'>
-                                <h1>Lorem Ipsum</h1>
-                                <p>Why do we use it?</p>
+                                <h1>REFRESCOS</h1>
+                                <p>¿Que estas esperando?</p>
                                 <div className='shop-now-btn ml-[125px]'>
-                                    <button>Shop Now</button>
+                                    <button>Compra Ahora</button>
                                     <MdDoubleArrow className='ml-1'/>
                                 </div>
                                 <div className='bg-black h-[1px] w-[40%] mx-auto'></div>
@@ -69,10 +69,10 @@ const Advertisement = () => {
 
                         <div className='relative'>
                             <div className='absolute z-10 left-[10px] top-[10px]'>
-                                <h1 className='text-[35px] font-[900] text-[#881F16] leading-[40px]'>Lorem Ipsum</h1>
-                                <p className='text-[15px] text-[#882016] text-center'>Why do we use it?</p>
+                                <h1 className='text-[35px] font-[900] text-[#881F16] leading-[40px]'>SALSAS</h1>
+                                <p className='text-[15px] text-[#882016] text-center'>¿Que estas esperando?</p>
                                 <div className='shop-now-btn ml-[100px]'>
-                                    <button>Shop Now</button>
+                                    <button>Compra Ahora</button>
                                     <MdDoubleArrow className='ml-1'/>
                                 </div>
                                 <div className='bg-black h-[1px] w-[40%] ml-[100px]'></div>
@@ -91,8 +91,12 @@ const Advertisement = () => {
                 <div className='cont-img'>
                     <div className='hoverImg relative'>
                         <div className='right-img-content'>
-                            <h1>Lorem Ipsum</h1>
-                            <p>Why do we use it?</p>
+                            <div className='shop-now-btn ml-[125px]'>
+                                <button>Compra Ahora</button>
+                                <MdDoubleArrow className='ml-1'/>
+                            </div>
+                            <h1>CEREALES</h1>
+                            <p>¿Que estas esperando?</p>
                         </div>
                         <img src={img5} alt="" />
                     </div>
