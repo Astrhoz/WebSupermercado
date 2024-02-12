@@ -1,0 +1,78 @@
+.carrito {
+  background: #d3e88b;
+  position: absolute;
+  display: none;
+  padding: 32px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 375px;
+  z-index: 9999;
+  overflow-y: auto; /* Habilita el desplazamiento vertical */
+  box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+  scrollbar-width: thin; /* Establece el ancho del scrollbar */
+  scrollbar-color: #94b929 transparent; /* Establece el color del scrollbar */
+}
+
+/* Estilos específicos para el scrollbar */
+.carrito::-webkit-scrollbar {
+  width: 8px; /* Ancho del scrollbar */
+}
+
+.carrito::-webkit-scrollbar-track {
+  background: transparent; /* Color del track del scrollbar */
+}
+
+.carrito::-webkit-scrollbar-thumb {
+  background-color: #94b929; /* Color del thumb del scrollbar */
+  border-radius: 4px; /* Radio de borde del thumb del scrollbar */
+}
+
+.carrito img {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.carrito li {
+  border-bottom: 1px solid #444;
+  padding-bottom: 16px;
+}
+
+.carrito footer {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrito footer button {
+  padding: 8px;
+}
+
+.carrito-fondo {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  background-color: #c4e454;
+  transition-duration: 0.5;
+}
+
+.carrito-button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.carrito-button:hover {
+  scale: 1.1;
+}
+
+.carrito-button ~ input:checked ~ .carrito {
+  height: 100%;
+  display: block;
+}

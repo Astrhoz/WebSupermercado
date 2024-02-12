@@ -3,18 +3,19 @@ import Home from "./Component/Home/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-function App() {
+// Importación del contexto para el carrito
+import ProveedorCarrito from "./context/carrito";
 
-  useEffect(()=>{
+function App() {
+  useEffect(() => {
     AOS.init();
     AOS.refresh();
-  },[])
+  }, []);
 
   return (
-    <div>
-      <Home/>
-      
-    </div>
+    <ProveedorCarrito>
+      <Home />
+    </ProveedorCarrito>
   );
 }
 

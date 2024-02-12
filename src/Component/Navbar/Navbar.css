@@ -1,78 +1,76 @@
 .navbar-contenedor {
-    width: 100%;
-    height: 58px;
-    background-color: #c4e454;
-    margin-top: 8px;
-    padding: 0 120px;
-    display: grid;
-    align-content: center;
+  width: 100%;
+  height: 58px;
+  background-color: #c4e454;
+  margin-top: 8px;
+  padding: 0 120px;
+  display: grid;
+  align-content: center;
 }
 
 .navbar-sub-contenedor {
-    display: flex;
-    align-items: center;
-    gap: 55px;
+  display: flex;
+  align-items: center;
+  gap: 55px;
 }
 
 .menu {
-    width: 313px;
-    height: 41px;
-    display: flex;
-    align-items: center;
-    border-radius: 20.5px;
-    background-color: #eff400;
-    padding: 20px;
+  width: 150px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  border-radius: 20.5px;
+  background-color: #eff400;
+  padding: 20px;
 }
 
 .menu p {
-    font-size: 20px;
-    color: #438439;
-    margin-left: 13px;
+  font-size: 20px;
+  color: #438439;
+  margin-left: 13px;
 }
 
 .menu-icon {
-    width: 31px;
-    height: 31px;
-    color: #aaaaaa;  
+  width: 31px;
+  height: 31px;
+  color: #aaaaaa;
 }
 
 .navbar ul {
-    display: flex;
-    gap: 54px;
-    font-size: 20px;
-    font-weight: 600;
-    color: #438439;
+  display: flex;
+  gap: 54px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #438439;
 }
 
 .nav-animado a {
-    padding: 0 .5em;
-    position: relative;
-    text-decoration: none;
-    display: inline-block;
+  padding: 0 0.5em;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .nav-animado a:before {
-    position: absolute;
-    content: "";
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-    opacity: 0;
-    left: 15%;
-    right: 15%;
-    top: 0;
-    bottom: 0;
-    border-left: 3px solid #27ae60;
-    border-right: 3px solid #27ae60;
+  position: absolute;
+  content: "";
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  opacity: 0;
+  left: 15%;
+  right: 15%;
+  top: 0;
+  bottom: 0;
+  border-left: 3px solid #27ae60;
+  border-right: 3px solid #27ae60;
 }
 
 .nav-animado a:hover {
-    color: white;
+  color: white;
 }
 
 .nav-animado a:hover:before {
-    opacity: 1;
-    left: 0;
-    right: 0;
+  opacity: 1;
+  left: 0;
+  right: 0;
 }
-
-

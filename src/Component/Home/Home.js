@@ -6,7 +6,7 @@ import SeccionPantalla from "../SeccionPantalla/SeccionPantalla";
 import ProductosDestacados from "../ProductosDestacados/ProductosDestacados";
 import Tienda from "../Tienda/Tienda";
 import Contacto from "../Contacto/Contacto";
-import Advertisement from "../Advertisement/Advertisement";
+import Publicidad from "../Publicidad/Publicidad";
 import TopSell from "../TopSell/TopSell";
 import Blog from "../Blog/Blog";
 import Brands from "../Brands/Brands";
@@ -30,16 +30,14 @@ const Home = () => {
           <>
             <SeccionPantalla />
             <ProductosDestacados />
-            <Advertisement />
             <TopSell />
             <Brands />
-            <Footer />
           </>
         );
       case 2:
         return <Tienda />;
       case 3:
-        return;
+        return <Publicidad />;
       case 4:
         return <Blog />;
       case 5:
@@ -54,6 +52,7 @@ const Home = () => {
       <Navbar handdleContenido={handdleContenido} />
       {/* Renderizar el contenido basado en el Navbar */}
       {cambiarContenido()}
+      <Footer />
     </div>
   );
 };

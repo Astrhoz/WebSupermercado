@@ -1,18 +1,18 @@
 .seccion-titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .seccion-titulo h1 {
-    font-size: 35px;
-    font-weight: 700;
-    color: #b0d62b;
+  font-size: 35px;
+  font-weight: 700;
+  color: #b0d62b;
 }
 
 .seccion-linea {
-    width: 192px;
-    height: 1px;
-    background-color: #c4e454;
+  width: 192px;
+  height: 1px;
+  background-color: #c4e454;
 }

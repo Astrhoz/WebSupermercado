@@ -5,12 +5,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Navbar = ({ handdleContenido }) => {
   return (
     <div className="navbar-contenedor">
-      <div className="navbar-sub-contenedor">
-        <div className="menu">
-          <GiHamburgerMenu className="menu-icon" />
-          <p>Departamentos</p>
-        </div>
-
+      <div className="navbar-sub-contenedor pl-72">
         <div className="navbar">
           <ul className="nav-animado">
             <li>
