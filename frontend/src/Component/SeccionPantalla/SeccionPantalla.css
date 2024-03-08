@@ -1,0 +1,120 @@
+.pantalla-primera-seccion {
+  position: relative;
+  background-color: #dee9cf;
+  z-index: -20;
+  overflow: hidden;
+}
+
+.contenido-sec-uno {
+  position: absolute;
+  right: 30px;
+  top: 110px;
+}
+
+.contenido-sec-uno h2 {
+  font-size: 38px;
+  color: #ff0101;
+}
+
+.contenido-sec-uno h1 {
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 65px;
+}
+
+.contenido-sec-uno h3 {
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 70px;
+  text-align: right;
+}
+
+.comprar-ahora-btn {
+  font-weight: 500;
+  color: #41503f;
+  display: flex;
+  align-items: center;
+}
+
+.rotate {
+  animation: rotation 2s;
+}
+
+@keyframes rotation {
+  from {
+    transform: translate(-300px, 300px) rotate(0deg) scale(0);
+  }
+  to {
+    transform: translateX(0px) rotate(360deg) scale(1);
+  }
+}
+
+.contenido-sec-dos {
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  z-index: 10;
+}
+
+.contenido-sec-dos h1 {
+  font-size: 82px;
+  font-weight: 900;
+  color: #605e5e;
+  line-height: 70px;
+}
+
+.contenido-sec-dos h2 {
+  font-size: 32px;
+  font-weight: 900;
+  color: #674f05;
+  line-height: 30px;
+}
+
+.contenido-sec-tres {
+  position: absolute;
+  left: 30px;
+  bottom: 48px;
+  z-index: 10;
+}
+
+.contenido-sec-tres h1 {
+  font-size: 82px;
+  font-weight: 900;
+  color: #b3050290;
+  line-height: 70px;
+}
+
+.contenido-sec-tres h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #7c9033;
+  line-height: 40px;
+}
+
+.column div {
+  position: relative;
+  float: left;
+  padding: 0;
+}
+
+figure {
+  width: 411px;
+  height: 280px;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.hover05 figure img {
+  margin-top: 50px;
+  margin-left: 100px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+
+.hover05 figure:hover img {
+  margin-left: 0;
+}
